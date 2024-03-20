@@ -1,0 +1,173 @@
+.competitions td.comp-name {
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+}
+
+.competitions td.comp-desc {
+    width: 70%;
+    text-align: justify;
+    padding: 15px;
+    border-bottom: 2px solid lightgray;
+}
+
+.competitions td.comp-name a {
+    text-decoration: none;
+}
+
+.entry-form table {
+    border: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.entry-form table td {
+    padding: 12px;
+}
+
+.entry-form table td.label-td {
+    width: 30%;
+}
+
+.entry-form table td.field-td {
+    width: 70%;
+}
+
+.entry-form input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.entry-form label {
+    color: white;
+}
+
+.entry-form form {
+    border: 1px solid black;
+    background: url('../images/bg.jpg');
+}
+
+.entry-form table textarea {
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.entry-form button.submit-btn {
+    text-align: center;
+    left: 34%;
+    position: relative;
+    padding: 12px 36px;
+    margin: 15px;
+    border-radius: 6px;
+    background: #E00750;
+    border: 2px solid #E00750;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.entry-form button.submit-btn:hover {
+    background: white;
+    color: #E00750;
+}
+
+.entry-form input.error {
+    border: 1px solid red;
+}
+
+.entry-form span.req, .entry-form span.err-msg {
+    color: red;
+}
+
+.entry-form span.err-msg {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.competitions {
+    max-width: 1100px !important;
+}
+
+.entry-form {
+    max-width: 700px !important;
+}
+
+.entry-form .success {
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+	background: #C0ECC3;
+	color: black;
+	border: 5px solid black;
+	display: none;
+	position: fixed;
+	border-radius: 25px;
+	top: 25%;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 300px;
+	z-index: 9;
+	font-size: 25px;
+	left: 25%;
+	width: 600px;
+}
+
+.entry-form .success span {
+    top: 30%;
+    text-align:  center;
+    position: relative;
+}
+
+.entry-form a.back-button {
+    width: 20%;
+    display: block;
+    color: white;
+    font-size: 18px;
+    left: 42%;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+    background: black;
+    position: fixed;
+}
+
+.entry-form .success:has(.error) {
+	background: red;
+	color: white;
+}
+
+.single-competitions.singular h1.entry-title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.single-competitions a.submit-btn {
+	text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 12px 32px;
+    border: 2px solid #E00750;
+    border-radius: 10px;
+    color: white;
+    background: #E00750;
+    width: 150px !important;
+    margin-top: 50px;
+}
+
+.single-competitions .entry-content {
+	text-align: justify;
+}
+
+.single-competitions a.submit-btn:hover {
+    font-weight: 600;
+}
